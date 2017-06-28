@@ -1,0 +1,31 @@
+{
+  "name": "@ku3mich/sequence",
+  "version": "0.0.1",
+  "description": "migration framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ku3mich/sequence.git"
+  },
+  "keywords": [
+    "migration",
+    "framework",
+    "nodejs"
+  ],
+  "author": "Serhii Kuzmychov <ku3mich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ku3mich/sequence/issues"
+  },
+  "homepage": "https://github.com/ku3mich/sequence#readme",
+  "devDependencies": {
+    "@ku3mich/mocha-misc": "0.0.2",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "@ku3mich/injectable": "0.0.3"
+  }
+}
