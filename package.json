@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/ku3mich/sequence#readme",
   "devDependencies": {
-    "@ku3mich/mocha-misc": "0.0.2",
+    "@ku3mich/test": ">=0.0.6",
     "mocha": "^3.4.2"
   },
   "dependencies": {
-    "@ku3mich/injectable": "0.0.3"
+    "@ku3mich/injectable": ">=0.0.8"
   }
 }
