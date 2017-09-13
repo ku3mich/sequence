@@ -1,0 +1,9 @@
+{
+    "adapter" : {
+        "type" : "couchdb",
+        "config" : {
+            "url" : "http://localhost:5984",
+            "database" : "databse-name"
+        }
+    }
+}
