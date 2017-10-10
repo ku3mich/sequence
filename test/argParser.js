@@ -1,4 +1,5 @@
 const parser = require('../lib/argparser');
+
 describe('argument parser', function () {
   it('parses forward', () =>{
     const args = parser(['-f']);
@@ -28,12 +29,5 @@ describe('argument parser', function () {
     check(parser(['-s', '10']));
     check(parser(['-s10']));
     check(parser(['--step', '10']));
-  });
-  
-  it('shows help', () =>{
-/*
-    const args = parser(['-h']);
-    console.log(args);
-*/
   });
 });
