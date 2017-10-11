@@ -25,7 +25,8 @@
     "@ku3mich/test": ">=0.0.6"
   },
   "dependencies": {
-    "@ku3mich/injectable": "0.0.10",
+    "@ku3mich/base": "^0.0.11",
+    "@ku3mich/injectable": "^0.0.10",
     "argparse": "^1.0.9",
     "find-root": "^1.1.0"
   },
