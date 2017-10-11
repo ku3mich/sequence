@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/ku3mich/sequence#readme",
   "devDependencies": {
-    "@ku3mich/test": ">=0.0.6"
+    "@ku3mich/test": "0.0.7"
   },
   "dependencies": {
-    "@ku3mich/base": "^0.0.11",
-    "@ku3mich/injectable": "^0.0.10",
+    "@ku3mich/base": "0.0.14",
+    "@ku3mich/injectable": "0.0.14",
     "argparse": "^1.0.9",
     "find-root": "^1.1.0"
   },
