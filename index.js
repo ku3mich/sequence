@@ -1,3 +1,5 @@
 module.exports = {
-  Step : require('./lib/step')
+  symbols : require('./lib/symbols'),
+  Step : require('./lib/step'),
+  SequenceError : require('./lib/sequenceError')
 };

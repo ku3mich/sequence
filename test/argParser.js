@@ -1,4 +1,4 @@
-const parser = require('../lib/argparser');
+const parser = require('../lib/argParser');
 
 describe('argument parser', function () {
   it('parses forward', () =>{

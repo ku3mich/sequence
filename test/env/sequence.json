@@ -1,9 +1,9 @@
 {
     "adapter" : {
-        "type" : "couchdb",
+        "stepsLocation" : "./steps",
+        "adapterPackage" : "../fileAdapter",
         "config" : {
-            "url" : "http://localhost:5984",
-            "database" : "databse-name"
+            "stateFile" : "./steps.state"
         }
     }
 }

@@ -18,13 +18,13 @@ describe('config', function () {
       .should.have.property('step', 10);
 
     options.args
-      .should.have.property('forward', []);
+      .should.have.property('forward').not.null;
 
     options.args
       .should.have.property('backward', null);
 
     // from .rc
     options.args
-      .should.have.property('verbose', []);
+      .should.have.property('verbose').not.null;
   });
 });
